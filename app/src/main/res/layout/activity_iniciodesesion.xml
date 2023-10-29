@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".InicioDeSesion">
+
+    <ImageView
+        android:id="@+id/imageView6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:background="#0001E9FE"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/colorverde"
+        tools:layout_editor_absoluteY="231dp" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="Olvido su contraseña?"
+        android:textAlignment="center"
+        android:textColor="#FFFFFF"
+        android:textSize="20sp"
+        android:textStyle="italic"
+        tools:layout_editor_absoluteX="105dp"
+        tools:layout_editor_absoluteY="559dp" />
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="Usuario"
+        android:textAlignment="center"
+        android:textColor="#FFFFFF"
+        android:textSize="25sp"
+        android:textStyle="italic"
+        tools:layout_editor_absoluteX="92dp"
+        tools:layout_editor_absoluteY="300dp" />
+
+    <TextView
+        android:id="@+id/textView7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="Contraseña"
+        android:textAlignment="center"
+        android:textColor="#FFFFFF"
+        android:textSize="25sp"
+        android:textStyle="italic"
+        tools:layout_editor_absoluteX="92dp"
+        tools:layout_editor_absoluteY="397dp" />
+
+    <Button
+        android:id="@+id/botoniniciosesion"
+        android:layout_width="315dp"
+        android:layout_height="51dp"
+        android:backgroundTint="#FFFFFF"
+        android:fontFamily="@font/opensansregular"
+        android:text="Iniciar Sesiòn"
+        android:textColor="#000000"
+        android:textSize="26sp"
+        app:layout_constraintBottom_toTopOf="@id/botoncrearcuenta"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.458"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.92" />
+
+    <Button
+        android:id="@+id/botoncrearcuenta"
+        android:layout_width="315dp"
+        android:layout_height="51dp"
+        android:backgroundTint="#FFFFFF"
+        android:fontFamily="@font/opensansregular"
+        android:text="Crear Cuenta"
+        android:textAlignment="center"
+        android:textColor="#000000"
+        android:textSize="26sp"
+        tools:layout_editor_absoluteX="44dp"
+        tools:layout_editor_absoluteY="594dp" />
+
+    <Button
+        android:id="@+id/boton"
+        android:layout_width="315dp"
+        android:layout_height="51dp"
+        android:backgroundTint="#06D304"
+        android:fontFamily="@font/opensansregular"
+        android:textAlignment="center"
+        android:textColor="#000000"
+        android:textSize="26sp"
+        tools:layout_editor_absoluteX="44dp"
+        tools:layout_editor_absoluteY="328dp" />
+
+    <Button
+        android:id="@+id/boton2"
+        android:layout_width="315dp"
+        android:layout_height="51dp"
+        android:backgroundTint="#06D304"
+        android:fontFamily="@font/opensansregular"
+        android:textAlignment="center"
+        android:textColor="#000000"
+        android:textSize="26sp"
+        tools:layout_editor_absoluteX="44dp"
+        tools:layout_editor_absoluteY="427dp" />
+
+    <ImageView
+        android:id="@+id/imageView12"
+        android:layout_width="36dp"
+        android:layout_height="28dp"
+        app:srcCompat="@drawable/correo2"
+        tools:layout_editor_absoluteX="45dp"
+        tools:layout_editor_absoluteY="300dp" />
+
+    <ImageView
+        android:id="@+id/imageView13"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/candado2"
+        tools:layout_editor_absoluteX="45dp"
+        tools:layout_editor_absoluteY="397dp" />
+
+    <EditText
+        android:id="@+id/editTextText"
+        android:layout_width="273dp"
+        android:layout_height="36dp"
+        android:ems="10"
+        android:hint="Contraseña"
+        android:inputType="text"
+        android:textColor="#FBFBFB"
+        tools:layout_editor_absoluteX="52dp"
+        tools:layout_editor_absoluteY="442dp" />
+
+    <EditText
+        android:id="@+id/editTextText2"
+        android:layout_width="273dp"
+        android:layout_height="36dp"
+        android:ems="10"
+        android:hint="Ingrese Nombre de Usuario"
+        android:inputType="text"
+        android:textColor="#FBFBFB"
+        tools:layout_editor_absoluteX="52dp"
+        tools:layout_editor_absoluteY="343dp" />
+
+    <ImageView
+        android:id="@+id/imageView8"
+        android:layout_width="117dp"
+        android:layout_height="102dp"
+        app:srcCompat="@drawable/Hojas"
+        tools:layout_editor_absoluteX="56dp"
+        tools:layout_editor_absoluteY="108dp" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="144dp"
+        android:layout_height="86dp"
+        android:fontFamily="@font/ecobamboofun"
+        android:text="Eco"
+        android:textAlignment="textStart"
+        android:textSize="70sp"
+        tools:layout_editor_absoluteX="180dp"
+        tools:layout_editor_absoluteY="84dp" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="193dp"
+        android:layout_height="82dp"
+        android:text="Recicla"
+        android:textAlignment="textStart"
+        android:textSize="48sp"
+        tools:layout_editor_absoluteX="180dp"
+        tools:layout_editor_absoluteY="149dp" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
